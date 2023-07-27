@@ -32,7 +32,50 @@
          z-index: 2;
          display: block !important;
        }
+       .facilities{
+ 
+        min-width: 100px;
+       margin-inline: 50px;
+       padding: 20px;
+      }
+      .facilities p{
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .campus{
        
+        min-width: 100px;
+       margin-inline: 50px;
+       padding: 20px;
+      }
+      .campus p{
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .course{
+       
+        min-width: 100px;
+       margin-inline: 50px;
+       padding: 20px;
+      }
+      .course p{
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .testimonals{
+        min-width: 100px;
+        margin-inline: 50px;
+        padding: 20px;
+      }
+      .testimonals p{
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+ 
   }
   @media screen and (max-width: 767px) {
     .text-box h1{
@@ -43,8 +86,168 @@
         font-size: 13px;
   margin: 10px 0 40px;
        }
-
+.course-column{
+  min-width: 80%;
+  margin:auto;
+  margin-bottom: 10px;
+}
+.campus-column{
+  min-width: 80%;
+  margin:auto;
+  margin-bottom: 10px;
+}
+.facilities-column{
+  min-width: 80%;
+  margin:auto;
+  margin-bottom: 10px;
+}
+.student-column{
+  min-width: 80%;
+  margin:auto;
+  margin-bottom: 10px;
+}
+.facilities-column h1{
+  text-align: left;
+ 
+}
+.facilities-column img {
+ min-width: 100%;
+ 
+ margin: auto;
+}
+.facilities-column p{
+  margin-bottom: 10px;
+}
+.facilities{
+ 
+  min-width: 100px;
+ margin-inline: 50px;
+ padding: 20px;
+}
+.facilities p{
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.campus{
+ 
+  min-width: 100px;
+ margin-inline: 50px;
+ padding: 20px;
+}
+.campus p{
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.course{
+ 
+  min-width: 100px;
+ margin-inline: 50px;
+ padding: 20px;
+}
+.course p{
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.testimonals{
+  min-width: 100px;
+  margin-inline: 50px;
+  padding: 20px;
+}
+.testimonals p{
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
   }
-  @media screen and (max-width: 479px) {
-   
+  @media screen and (max-width: 540px) {
+    .header{
+      
+      height:80vh;
+      
+  
+    }
+    .course-area h1 {
+      font-size: 25px;
+      font-weight: 500;
+  }
+  .campus-area h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.facilities-section h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+    .student-section h1 {
+      font-size: 25px;
+      font-weight: 500;
+  }
+    .text-box h1{
+      font-size: 25px;
+        font-weight: 500;
+     } 
+     .text-box p{
+      font-size: 12px;
+margin: 10px 0 40px;
+     }
+    .course-area{
+      width:95%;
+    }
+    .course-column{
+   min-width: 100%;
+    }
+    .campus-column{
+     min-width: 100%;
+   }
+    .campus-area{
+      width: 95%;
+    }
+    .facilities-section{
+      width:95%
+    }
+    .facilities-column{
+      flex-basis: 100%;
+      
+     
+    }
+    .facilities-column img{
+      width: 100%;
+    }
+    .facilities-column h1{
+      text-align: left;
+    }
+   .student-column{
+    flex-basis: 100%;
+    margin-bottom: 10px;
+   }
+   .student-section{
+    width:95%
+   }
+
+   .facilities{
+ 
+    min-width: 300px;
+   margin-inline: 10px;
+   padding: 20px;
+  }
+  .campus{
+ 
+    min-width: 300px;
+   margin-inline: 10px;
+   padding: 20px;
+  }
+  .course{
+ 
+    min-width: 300px;
+   margin-inline: 10px;
+   padding: 20px;
+  }
+  .testimonals{
+    min-width: 300px;
+   margin-inline: 10px;
+   padding: 20px;
+  }
   }
