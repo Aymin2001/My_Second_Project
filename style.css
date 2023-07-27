@@ -217,4 +217,50 @@ padding-top: 100px;
  
 }
 
+/* facility section */
 
+.facilities-section{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-block: 20px;
+}
+.facilities-section p {
+  font-size: 16px;
+  color: #777;
+  font-weight: 300;
+  padding: 10px;
+  line-height: 22px;
+ 
+}
+.facilities-section h1{
+  font-size: 36px;
+
+  font-weight: 600;
+}
+.facilities-card{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.facilities-column{
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+ overflow: hidden;
+}
+.facilities-column img{
+  height: 300px;
+  border-radius: 20px;
+}
+
+.facilities-column h1{
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin: 10px 0;
+}
+ .facilities-column p{
+  text-align: justify;
+ }
