@@ -1,4 +1,4 @@
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 993px) {
     .text-box h1{
         font-size: 50px;
           font-weight: 600;
@@ -75,7 +75,18 @@
         text-align: center;
         margin-bottom: 10px;
       }
- 
+      .facilities-column img {
+        width: 90%;
+        height:150px;
+        border: none;
+        margin: auto;
+        
+       }
+ .facilities-column{
+  width: 5%;
+  border-radius: none;
+
+ }
   }
   @media screen and (max-width: 767px) {
     .text-box h1{
@@ -112,7 +123,7 @@
 }
 .facilities-column img {
  min-width: 100%;
- 
+ height:300px;
  margin: auto;
 }
 .facilities-column p{
@@ -160,6 +171,14 @@
   margin-top: 10px;
   text-align: center;
   margin-bottom: 10px;
+}
+.footer{
+  width:95%;
+  margin-inline: auto;
+ 
+}
+.footer p{
+  justify-content: justify;
 }
   }
   @media screen and (max-width: 540px) {
@@ -215,6 +234,7 @@ margin: 10px 0 40px;
     }
     .facilities-column img{
       width: 100%;
+      height:400px
     }
     .facilities-column h1{
       text-align: left;
@@ -250,4 +270,62 @@ margin: 10px 0 40px;
    margin-inline: 10px;
    padding: 20px;
   }
+  .footer{
+    width:95%;
+    margin-inline: auto;
+   
+  }
+  .footer p{
+    justify-content: justify;
+  }
+  .cta-content h1{
+    line-height: 40px;
+  font-size: 25px;
+  margin-inline: 10px;
+  }
+
+  }
+  @media screen and (max-width: 320px) {
+    .course{
+      min-width: 100%;
+      
+     
+    }
+    .course h1{
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .course p{
+      font-size: 12px;
+    }
+    .campus{
+      min-width: 100%;
+    }
+    .campus h1{
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .campus p{
+      font-size: 12px;
+    }
+    .facilities{
+      min-width: 100%;
+    }
+    .facilities h1{
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .facilities p{
+      font-size: 12px;
+    }
+    .testimonals{
+      min-width: 100%;
+    }
+    .testimonals h1{
+      font-size: 20px;
+      font-weight: 600;
+    }
+    /* .testimonals p{
+      font-size: 12px;
+    } */
   }
