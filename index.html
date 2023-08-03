@@ -7,6 +7,8 @@
    
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="media-query.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
   </head>
   <body>
     <!-- header -->
@@ -18,7 +20,7 @@
           ><img src="./assets (3)/asset 0.png" alt="Company-logo"
         /></a>
         <div class="nav-link">
-          <i class="fa-sharp fa-solid fa-square-xmark"></i>       
+          
              <ul>
             <li><a href="#" class="nav-tag">HOME</a></li>
             <li><a href="./About.html" class="nav-tag">ABOUT</a></li>
@@ -26,10 +28,11 @@
             <li><a href="./Blog.html" class="nav-tag">BLOG</a></li>
             <li><a href="./Contact.html" class="nav-tag">CONTACT</a></li>
           </ul>
-        </div>
-        <i class="fa-thin fa-bars"></i>
         
-           </nav>
+        </div>
+     
+                 </nav>
+            
 <!-- textbox -->
       <div class="text-box">
         <h1>World's Biggest University</h1>
@@ -176,5 +179,16 @@
 src="https://kit.fontawesome.com/2fb5c346ae.js"
 crossorigin="anonymous"
 ></script>
+<script>
+  document.querySelector('.menu-icon').addEventListener('click', function() {
+  document.querySelector('.nav-link ul').classList.toggle('show');
+});
+
+
+
+
+
+
+</script>
   </body>
 </html>
