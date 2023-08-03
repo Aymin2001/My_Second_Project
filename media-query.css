@@ -87,6 +87,20 @@
   border-radius: none;
 
  }
+ .About-Content {
+  justify-content: center;
+  gap:40px
+ }
+ .Content-right img{
+  width:250px
+ }
+ .Content-left{
+  flex-basis: 38%;
+ }
+ .Content-left p{
+  text-align: justify;
+ }
+
   }
   @media screen and (max-width: 767px) {
     .text-box h1{
@@ -179,6 +193,26 @@
 }
 .footer p{
   justify-content: justify;
+}
+.contact-column{
+  min-width: 80%;
+  margin: auto;
+}
+.Content-left{
+  min-width: 80%;
+}
+.Content-right img{
+  width: 80%;
+  margin-left: 10%;
+}
+.Blog-left{
+  min-width: 80%;
+  margin: auto;
+}
+.Blog-right{
+  min-width: 80%;
+  margin: auto;
+
 }
   }
   @media screen and (max-width: 540px) {
@@ -283,7 +317,55 @@ margin: 10px 0 40px;
   font-size: 25px;
   margin-inline: 10px;
   }
+.contact-us{
+  margin-block: 40px;
+  align-items: flex-start;
+  width:95%;
 
+
+}
+.contact-column div .fa{
+  font-size: 20px;
+ 
+}
+.contact-column div h5{
+font-size: 15px;
+
+font-weight: 400;
+}
+.contact-column div p{
+padding: 0;
+}
+.contact-column{
+  min-width: 95%;
+}
+.About-header h1{
+  font-size: 25px;
+}
+.Content-left{
+  min-width: 95%;
+}
+.Content-right img{
+  min-width: 100%;
+  margin:0
+}
+.About-Content {
+  width:97%
+}
+.Blog-Content{
+  width:100%;
+}
+.Blog-left{
+  flex-basis: 95%;
+ margin: auto;
+}
+
+.Blog-right{
+flex-basis: 95%;
+margin: auto;
+ 
+
+}
   }
   @media screen and (max-width: 320px) {
     .course{
@@ -325,6 +407,22 @@ margin: 10px 0 40px;
       font-size: 20px;
       font-weight: 600;
     }
+  
+    .contact-column div .fa{
+      font-size: 13px;
+     
+    }
+    .contact-column div h5{
+    font-size: 12px;
+    
+    font-weight: 600;
+    
+    }
+    .contact-column div p{
+    padding: 0;
+    }
+   
+   
     /* .testimonals p{
       font-size: 12px;
     } */
