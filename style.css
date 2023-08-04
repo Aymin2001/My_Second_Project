@@ -229,7 +229,7 @@ padding-top: 50px;
   transition: transform 1s,background-color 1s, opacity 1s;
 }
 .text-container p{
-  color: #fff;
+  color:black;
   font-size: 30px;
   font-weight: 500;
 }
