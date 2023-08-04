@@ -17,12 +17,43 @@
         display: block;
       }
      */
+   
       .nav-link ul li {
         display: block;
         margin-bottom: 5px; /* Add some spacing between each list item */
       }
+      .nav-link ul{
+        display: block;
+      }
+nav .fa-solid{
+  display: block;
+  color:#fff;
+  margin: 10px;
+  font-size: 22px;
+  cursor: pointer;
+}
+nav .fa{
+  display:block;
+  color:#fff;
+  margin: 10px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.nav-link ul{
+  padding: 30px;
+}
 
-      
+      .nav-link{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width:200px;
+        top:0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+      }
        .facilities{
  
         min-width: 100px;
@@ -96,8 +127,10 @@
   margin-top: -100px; 
 }
 
+
   }
   @media screen and (max-width: 767px) {
+  
     .text-box h1{
         font-size: 40px;
           font-weight: 600;
@@ -207,7 +240,9 @@
 .Blog-right{
   min-width: 80%;
   margin: auto;
-
+}
+nav{
+  gap:280px
 }
   }
   @media screen and (max-width: 540px) {
@@ -361,8 +396,15 @@ margin: auto;
  
 
 }
+nav{
+  gap:80px
+}
+
   }
   @media screen and (max-width: 320px) {
+    nav{
+      gap:40px
+    }
     .course{
       min-width: 100%;
       

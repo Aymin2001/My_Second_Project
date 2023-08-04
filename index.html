@@ -15,13 +15,15 @@
     <section class="container">
 <section class="header">
       <!-- navbar -->
+    
       <nav>
         <a href="#"
           ><img src="./assets (3)/asset 0.png" alt="Company-logo"
         /></a>
-        <div class="nav-link">
-          
-             <ul>
+        <div class="nav-link" id="nav-link">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+                       <ul>
             <li><a href="#" class="nav-tag">HOME</a></li>
             <li><a href="./About.html" class="nav-tag">ABOUT</a></li>
             <li><a href="./Course.html" class="nav-tag">COURSE</a></li>
@@ -30,9 +32,10 @@
           </ul>
         
         </div>
-     
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
                  </nav>
-            
+ 
 <!-- textbox -->
       <div class="text-box">
         <h1>World's Biggest University</h1>
@@ -175,20 +178,25 @@
   <p>Made with  <i class="fa fa-heart-o"></i> Mehedi Hasan John</p>
 </section>
 </section>
-<script
+<scrip
 src="https://kit.fontawesome.com/2fb5c346ae.js"
 crossorigin="anonymous"
 ></script>
+
 <script>
-  document.querySelector('.menu-icon').addEventListener('click', function() {
-  document.querySelector('.nav-link ul').classList.toggle('show');
-});
-
-
-
-
-
-
+  var navlink=document.getElementById('nav-link');
+function showMenu(){
+  navlink.style.right="0";
+}
+function hideMenu(){
+  navlink.style.right="-200px";
+}
 </script>
+
+
+
+
+
+
   </body>
 </html>
