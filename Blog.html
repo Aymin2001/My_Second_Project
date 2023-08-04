@@ -17,16 +17,21 @@
           <a href="#"
             ><img src="./assets (3)/asset 0.png" alt="Company-logo"
           /></a>
-          <div class="nav-link">
-            <ul>
+          <div class="nav-link" id="nav-link">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+  
+                         <ul>
               <li><a href="./index.html" class="nav-tag">HOME</a></li>
               <li><a href="./About.html" class="nav-tag">ABOUT</a></li>
               <li><a href="./Course.html" class="nav-tag">COURSE</a></li>
               <li><a href="#" class="nav-tag">BLOG</a></li>
               <li><a href="./Contact.html" class="nav-tag">CONTACT</a></li>
             </ul>
+          
           </div>
-        </nav>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+  
+                   </nav>
         <h1>Our Certificate & Online Programs For 2022</h1>
       </section>
       <!-- Blog Content -->
@@ -134,5 +139,15 @@
       src="https://kit.fontawesome.com/2fb5c346ae.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      var navlink=document.getElementById('nav-link');
+    function showMenu(){
+      navlink.style.right="0";
+    }
+    function hideMenu(){
+      navlink.style.right="-200px";
+    }
+    </script>
+    
   </body>
 </html>

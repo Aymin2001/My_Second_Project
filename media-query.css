@@ -114,7 +114,7 @@
   }
 
   .About-header h1 {
-    margin-top: -100px;
+    margin-top: 12px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -225,6 +225,9 @@
   }
   nav {
     gap: 280px;
+  }
+  .About-header h1{
+    margin-top: 36px;
   }
 }
 @media screen and (max-width: 540px) {
@@ -341,6 +344,7 @@
   }
   .About-header h1 {
     font-size: 25px;
+    margin-top: 60px;
   }
   .Content-left {
     min-width: 95%;
@@ -424,7 +428,8 @@
 
   .About-header h1 {
     font-size: 20px;
-    margin-top: -69px;
+    margin-top: 50pxpx;
+    text-align: center;
   }
 
 }
